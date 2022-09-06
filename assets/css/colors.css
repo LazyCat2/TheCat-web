@@ -1,0 +1,8 @@
+html {
+    --accent: #0080ff;
+    --error: #ba0000;
+    --success: #278d08;
+    --secondary: #636363;
+    --warn: #b6b600;
+    --background: #1a1a1a;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "thecat-web",
+  "version": "1.0.0",
+  "description": "Website of discord bot",
+  "main": "index.js",
+  "scripts": {
+    "run": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazyCat2/TheCatWeb.git"
+  },
+  "author": "LazyCat",
+  "license": "GNU General Public License v2.0",
+  "bugs": {
+    "url": "https://github.com/LazyCat2/TheCatWeb/issues"
+  },
+  "homepage": "https://github.com/LazyCat2/TheCatWeb#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.35.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "locale": "^0.1.0",
+    "pug": "^3.0.2",
+    "sprightly": "^1.0.3"
+  }
+}

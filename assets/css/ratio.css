@@ -1,0 +1,25 @@
+ratio[state="off"]::before {
+  border-color: white;
+  background-color: transparent;
+}
+
+ratio[state="on"]::before {
+  border-color: white;
+  background-color: white;
+}
+
+ratio::before {
+  transition: 250ms all;
+  border-width: 1px;
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  border-style: solid;
+  border-radius: 100%;
+  margin-right: 10px;
+  content: '';
+}
+
+ratio {
+  display: inline-block;
+}

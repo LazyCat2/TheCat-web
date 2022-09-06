@@ -1,0 +1,44 @@
+button {
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0) 0 0);
+    font-size: 13px;
+
+    outline-color: transparent;
+    outline-width: 0px;
+    outline-style: solid;
+
+    transition: var(--slide) all;
+}
+
+button.secondary   { background-color: var(--secondary); }
+button.accent      { background-color: var(--accent);    }
+button.accept      { background-color: var(--success);   }
+button.deny        { background-color: var(--error);     }
+button.warn        { background-color: var(--warn);      }
+button.transparent { background-color: transparent;      }
+
+button.secondary.transparent:hover { color: var(--secondary); }
+button.accent.transparent:hover { color: var(--accent); }
+button.accept.transparent:hover { color: var(--success); }
+button.deny.transparent:hover { color: var(--error); }
+button.warn.transparent:hover { color: var(--warn); }
+
+
+button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+button[loading] {
+    font-weight: lighter;
+}
+
+button:focus-visible {
+    outline-color: white;
+    outline-width: 1px;
+    transition: 40ms all var(--slide);
+}

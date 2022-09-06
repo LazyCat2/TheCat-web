@@ -1,0 +1,29 @@
+checkbox[state="off"]::before {
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  content: 'OFF';
+}
+
+checkbox[state="on"]::before {
+  border-color: white;
+  background-color: white;
+  color: var(--background);
+  content: 'ON';
+}
+
+checkbox::before {
+  transition: 400ms all;
+  border-width: 1px;
+  height: 20px;
+  width: 40px;
+  display: inline-block;
+  border-style: solid;
+  border-radius: 50px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+checkbox {
+  display: inline-block;
+}

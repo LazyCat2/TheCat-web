@@ -1,0 +1,19 @@
+input {
+    border-color: transparent transparent #ffffff50 transparent;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+}
+
+input:focus {
+    border-color: transparent transparent white transparent;
+    outline: none;
+}
+
+input::placeholder {
+    color: #ffffff50
+} 
+
+input::before {
+    content: '\A'
+}

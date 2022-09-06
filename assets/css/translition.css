@@ -1,0 +1,8 @@
+html {
+    --too-much: cubic-bezier(.5,-0.25,.5,1.25);
+    --slide: cubic-bezier(1,0,0,1);
+}
+
+* {
+    transition: 400ms all;
+}
